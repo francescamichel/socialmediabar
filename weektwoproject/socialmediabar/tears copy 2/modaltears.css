@@ -1,0 +1,34 @@
+img{
+	z-index: 1;
+}
+
+#purpletears{
+	position: relative;
+	z-index: 2;
+}
+
+#bluefilm{
+	color: lightblue;
+	background-color: lightblue;
+	opacity: 0.4;
+	width: 2000px;
+	height: 1800px;
+	position: absolute;
+	top: 0px;
+
+}
+#boots{
+
+	position: absolute;
+	left: 200px;
+	top: 2000px;
+}
+
+#sparkles{
+	width: 100px;
+	height: 2000px;
+	position: absolute;
+	top: 200px;
+	left: 10px;
+
+}

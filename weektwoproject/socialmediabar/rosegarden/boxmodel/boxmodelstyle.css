@@ -1,0 +1,161 @@
+img{
+
+	width:200px;
+	float: left;
+	/*margin: auto;
+	position: absolute; */
+
+
+
+}
+
+
+h3 {
+
+	font: Times;
+	font-style: serif;
+	color: antiquewhite;
+	font-size: 12pt;
+	float: left;
+	padding: 10px;
+	border: 2px solid cyan;
+	margin: 20px;
+
+
+}
+
+#darkimg{
+	
+	width: 2000px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+}
+
+#pink{
+
+	font: Times;
+	font-style: serif;
+	color: antiquewhite;
+	font-size: 10pt;
+	width: 500px;
+	/*float: left;*/
+	padding: 10px;
+	border: 2px solid antiquewhite;
+	margin: 20px;
+
+
+    
+}
+
+#lightblue{
+
+	font: Times;
+	font-style: serif;
+	color: antiquewhite;
+	font-size: 10pt;
+	width: 500px;
+	/*float: left;*/
+	padding: 10px;
+	border: 2px solid antiquewhite;
+	margin: 20px;
+	text-align: inline; 
+
+
+}
+
+#lightgreen{
+	font: Times;
+	font-style: serif;
+	color: lightgreen;
+	font-size: 10pt;
+	width: 500px;
+	/*float: left;*/
+	padding: 10px;
+	border: 2px solid antiquewhite;
+	margin: 20px;
+	text-align: inline; 
+	
+
+
+
+}
+
+
+#beautifulpinksofa{
+
+	position: absolute;
+	top: 300px;
+	left: 500px;
+	width: 30px;
+}
+
+/*img{
+
+	width:200px;
+	float: left;
+	/*margin: auto;
+	position: absolute; */
+
+
+
+/*}
+
+
+h3 {
+
+	font: Times;
+	font-style: serif;
+	color: antiquewhite;
+	font-size: 12pt;
+	float: left;
+	padding: 10px;
+	border: 2px solid cyan;
+	margin: 20px;
+
+
+}
+
+body{
+	
+	background-image: url("images/IMG_1384 1.JPG");
+}
+
+#pink{
+
+	font: Times;
+	font-style: serif;
+	color: antiquewhite;
+	font-size: 10pt;
+	width: 500px;
+	/*float: left;*/
+	/*padding: 10px;
+	border: 2px solid antiquewhite;
+	margin: 20px;*/
+
+/*    
+}
+
+#lightblue{
+
+	font: Times;
+	font-style: serif;
+	color: antiquewhite;
+	font-size: 10pt;
+	width: 500px;
+	/*float: left;*/
+	padding: 10px;
+	border: 2px solid antiquewhite;
+	margin: 20px;
+
+
+/*/
+
+
+
+
+*/
+
+
+

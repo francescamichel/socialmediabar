@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>halation</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+<style> 
+</style> 
+<style>
+
+#redbase{
+border-style: solid;
+border-width: 0;
+
+background: rgba(225, 0, 0, 0.2); 
+font-style: italic;
+font: arial;
+color: red;
+height: 5000px;
+width: 5000px;
+position: relative;
+top: 0px;
+left: 0px;
+}
+
+
+ 
+/* 
+ background-color: rgba(225, 0, 0, 0.3);
+ */
+
+ 
+#bluetintone{
+border-style: solid;
+border-width: 0;
+
+background: rgba(125, 0, 225, 0.1); 
+font-style: italic;
+font: arial;
+color: red;
+height: 500px;
+width: 1000px;
+position: fixed;
+top: 90px;
+left: 90px;
+}
+
+
+#bluetinttwo{
+border-style: solid;
+border-width: 0;
+
+background: rgba(125, 0, 225, 0.1); 
+font-style: italic;
+font: arial;
+color: red;
+height: 400px;
+width: 1000px;
+position: fixed;
+top: 90px;
+left: 90px;
+}
+
+#bluetintthree{
+border-style: solid;
+border-width: 0;
+
+background: rgba(125, 0, 225, 0.1); 
+font-style: italic;
+font: arial;
+color: red;
+height: 300px;
+width: 1000px;
+position: fixed;
+top: 90px;
+left: 90px;
+}
+
+#bluetintfour{
+border-style: solid;
+border-width: 0;
+
+background: rgba(125, 0, 225, 0.1); 
+font-style: italic;
+font: arial;
+color: red;
+height: 200px;
+width: 1000px;
+position: fixed;
+top: 90px;
+left: 90px;
+}
+
+#bluetintfive{
+border-style: solid;
+border-width: 0;
+
+background: rgba(125, 0, 225, 0.1); 
+font-style: italic;
+font: arial;
+color: red;
+height: 100px;
+width: 1000px;
+position: fixed;
+top: 90px;
+left: 90px;
+}
+
+
+
+
+
+
+
+#bluetintsix{
+border-style: solid;
+border-width: 0;
+
+background: rgba(125, 0, 225, 0.1); 
+font-style: italic;
+font: arial;
+color: red;
+height: 500px;
+width: 1000px;
+position: fixed;
+top: 590px;
+left: 90px;
+}
+
+
+#bluetintseven{
+border-style: solid;
+border-width: 0;
+
+background: rgba(125, 0, 225, 0.1); 
+font-style: italic;
+font: arial;
+color: red;
+height: 400px;
+width: 1000px;
+position: fixed;
+top: 690px;
+left: 90px;
+}
+
+#bluetinteight{
+border-style: solid;
+border-width: 0;
+
+background: rgba(125, 0, 225, 0.1); 
+font-style: italic;
+font: arial;
+color: red;
+height: 300px;
+width: 1000px;
+position: fixed;
+top: 790px;
+left: 90px;
+}
+
+#bluetintnine{
+border-style: solid;
+border-width: 0;
+
+background: rgba(125, 0, 225, 0.1); 
+font-style: italic;
+font: arial;
+color: red;
+height: 200px;
+width: 1000px;
+position: fixed;
+top: 890px;
+left: 90px;
+}
+
+#bluetintten{
+border-style: solid;
+border-width: 0;
+
+background: rgba(125, 0, 225, 0.1); 
+font-style: italic;
+font: arial;
+color: red;
+height: 100px;
+width: 1000px;
+position: fixed;
+top: 990px;
+left: 90px;
+}
+
+
+
+
+
+
+
+
+
+#yellowtintone{
+border-style: solid;
+border-width: 0;
+
+background: rgba(125, 225, 225, 0.1); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 500px;
+position: fixed;
+top: 90px;
+left: 90px;
+}
+
+#yellowtinttwo{
+border-style: solid;
+border-width: 0;
+
+background: rgba(125, 225, 225, 0.1); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 400px;
+position: fixed;
+top: 90px;
+left: 90px;
+}
+
+#yellowtintthree{
+border-style: solid;
+border-width: 0;
+
+background: rgba(125, 225, 225, 0.1); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 300px;
+position: fixed;
+top: 90px;
+left: 90px;
+}
+
+#yellowtintfour{
+border-style: solid;
+border-width: 0;
+
+background: rgba(125, 225, 225, 0.1); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 200px;
+position: fixed;
+top: 90px;
+left: 90px;
+}
+
+#yellowtintfive{
+border-style: solid;
+border-width: 0;
+
+background: rgba(125, 225, 225, 0.1); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 100px;
+position: fixed;
+top: 90px;
+left: 90px;
+}
+
+
+
+
+#yellowtintsix{
+border-style: solid;
+border-width: 0;
+
+background: rgba(125, 225, 225, 0.1); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 500px;
+position: fixed;
+top: 90px;
+left: 590px;
+}
+
+#yellowtintseven{
+border-style: solid;
+border-width: 0;
+
+background: rgba(125, 225, 225, 0.1); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 400px;
+position: fixed;
+top: 90px;
+left: 690px;
+}
+
+#yellowtinteight{
+border-style: solid;
+border-width: 0;
+
+background: rgba(125, 225, 225, 0.1); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 300px;
+position: fixed;
+top: 90px;
+left: 790px;
+}
+
+#yellowtintnine{
+border-style: solid;
+border-width: 0;
+
+background: rgba(125, 225, 225, 0.1); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 200px;
+position: fixed;
+top: 90px;
+left: 890px;
+}
+
+#yellowtintten{
+border-style: solid;
+border-width: 0;
+
+background: rgba(125, 225, 225, 0.1); 
+font-style: italic;
+font: arial;
+color: red;
+height: 1000px;
+width: 100px;
+position: fixed;
+top: 90px;
+left: 990px;
+}
+
+
+
+
+
+button {
+border-style: solid;
+border-width: 0;
+
+
+font-style: italic;
+font: arial;
+height: 70px;
+width: 70px;
+position: absolute;
+
+}
+
+
+#buttonone{
+color: red;
+background: rgba(225, 0, 0, 0.5); 
+top: 0px;
+left: 0px;
+}
+
+#buttontwo{
+color: red;
+background: rgba(125, 0, 225, 0.2); 
+top: 70px;
+left: 0px;
+}
+
+#buttonthree{
+color: red;
+background: rgba(125, 0, 225, 0.2); 
+top: 140px;
+left: 0px;
+}
+
+#buttonfour{
+color: red;
+background: rgba(125, 0, 225, 0.2); 
+top: 210px;
+left: 0px;
+}
+
+#buttonfive{
+color: red;
+background: rgba(125, 0, 225, 0.2); 
+top: 280px;
+left: 0px;
+}
+
+#buttonsix{
+color: red;
+background: rgba(125, 0, 225, 0.2); 
+top: 350px;
+left: 0px;
+}
+
+#buttonseven{
+color: red;
+background: rgba(125, 0, 225, 0.2); 
+top: 420px;
+left: 0px;
+}
+
+#buttoneight{
+color: red;
+background: rgba(125, 0, 225, 0.2); 
+top: 490px;
+left: 0px;
+}
+
+#buttonnine{
+color: red;
+background: rgba(125, 0, 225, 0.2); 
+top: 560px;
+left: 0px;
+}
+
+#buttonten{
+color: red;
+background: rgba(125, 0, 225, 0.2); 
+top: 630px;
+left: 0px;
+}
+
+#buttoneleven{
+color: red;
+background: rgba(125, 0, 225, 0.2); 
+top: 700px;
+left: 0px;
+}
+
+
+
+
+
+
+
+
+
+#buttontwelve{
+color: red;
+background: rgba(125, 225, 225, 0.3); 
+top: 0px;
+left: 70px;
+}
+
+
+#buttonthirteen{
+color: red;
+background: rgba(125, 225, 225, 0.3); 
+top: 0px;
+left: 140px;
+}
+
+#buttonfourteen{
+color: red;
+background: rgba(125, 225, 225, 0.3); 
+top: 0px;
+left: 210px;
+}
+
+#buttonfifteen{
+color: red;
+background: rgba(125, 225, 225, 0.3); 
+top: 0px;
+left: 280px;
+}
+
+#buttonsixteen{
+color: red;
+background: rgba(125, 225, 225, 0.3); 
+top: 0px;
+left: 350px;
+}
+
+
+#buttonseventeen{
+color: red;
+background: rgba(125, 225, 225, 0.3); 
+top: 0px;
+left: 420px;
+}
+
+
+#buttoneighteen{
+color: red;
+background: rgba(125, 225, 225, 0.3); 
+top: 0px;
+left: 490px;
+}
+
+#buttonnineteen{
+color: red;
+background: rgba(125, 225, 225, 0.3); 
+top: 0px;
+left: 560px;
+}
+
+#buttontwenty{
+color: red;
+background: rgba(125, 225, 225, 0.3); 
+top: 0px;
+left: 630px;
+}
+
+#buttontwentyone{
+color: red;
+background: rgba(125, 225, 225, 0.3); 
+top: 0px;
+left: 700px;
+}
+
+
+
+</style>
+<title>jQuery</title>
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+
+
+<!-- 
+<script>
+
+$(document).ready(function(){
+	$('button').click(function(){
+	$('button').each(function(){
+		var offset = $(this).offset();
+		$(this).offset({top: offset.top + 0, left:offset.left + -800});
+		});
+	});
+});
+
+
+
+</script>
+ -->
+</head>
+
+
+<body>
+
+
+
+<button id=buttonone> </button>
+ 
+<p id="redbase"> </p>
+
+
+<button id=buttontwo> </button>
+ 
+<p id="bluetintone"> </p>
+
+
+<button id=buttonthree> </button>
+ 
+<p id="bluetinttwo"> </p>
+
+<button id=buttonfour> </button>
+ 
+<p id="bluetintthree"> </p>
+
+<button id=buttonfive> </button>
+ 
+<p id="bluetintfour"> </p>
+
+<button id=buttonsix> </button>
+ 
+<p id="bluetintfive"> </p>
+
+
+<button id=buttonseven> </button>
+ 
+<p id="bluetintsix"> </p>
+
+<button id=buttoneight> </button>
+ 
+<p id="bluetintseven"> </p>
+
+<button id=buttonnine> </button>
+ 
+<p id="bluetinteight"> </p>
+
+<button id=buttonten> </button>
+ 
+<p id="bluetintnine"> </p>
+
+<button id=buttoneleven> </button>
+ 
+<p id="bluetintten"> </p>
+
+<!-- <button id=buttoneleven> </button> -->
+ 
+<!-- <p id="bluetintnine"> </p> -->
+
+<!-- <button id=buttontwelve> </button> -->
+ 
+<!-- <p id="bluetintnine"> </p> -->
+
+
+
+
+<!-- <button id=buttontwelve> </button> -->
+ 
+<p id="yellowtintone"> </p>
+
+<p id="yellowtinttwo"> </p>
+
+<p id="yellowtintthree"> </p>
+<p id="yellowtintfour"> </p>
+<p id="yellowtintfive"> </p>
+
+<p id="yellowtintsix"> </p>
+
+<p id="yellowtintseven"> </p>
+
+<p id="yellowtinteight"> </p>
+<p id="yellowtintnine"> </p>
+<p id="yellowtintten"> </p>
+
+
+<button id=buttontwelve> </button>
+<button id=buttonthirteen> </button>
+<button id=buttonfourteen> </button>
+<button id=buttonfifteen> </button>
+<button id=buttonsixteen> </button>
+
+<button id=buttonseventeen> </button>
+
+<button id=buttoneighteen> </button>
+
+<button id=buttonnineteen> </button>
+
+<button id=buttontwenty> </button>
+
+<button id=buttontwentyone> </button>
+
+<script>
+ 
+
+
+jQuery.fn.visibilityToggle = function() {
+    return this.css('visibility', function(i, visibility) {
+        return (visibility == 'visible') ? 'hidden' : 'visible';
+    });
+}
+
+!(function($) {
+    var toggle = $.fn.toggle;
+    $.fn.toggle = function() {
+        var args = $.makeArray(arguments),
+            lastArg = args.pop();
+
+        if (lastArg == 'visibility') {
+            return this.visibilityToggle();
+        }
+
+        return toggle.apply(this, arguments);
+    };
+})(jQuery);
+
+$( "#buttontwo" ).click(function() {
+    $( "#bluetintone" ).toggle('visibility');
+});
+
+
+$( "#buttonone" ).click(function() {
+    $( "#redbase" ).toggle('visibility');
+});
+
+$( "#buttonthree" ).click(function() {
+    $( "#bluetinttwo" ).toggle('visibility');
+});
+
+$( "#buttonfour" ).click(function() {
+    $( "#bluetintthree" ).toggle('visibility');
+});
+
+$( "#buttonfive" ).click(function() {
+    $( "#bluetintfour" ).toggle('visibility');
+});
+
+$( "#buttonsix" ).click(function() {
+    $( "#bluetintfive" ).toggle('visibility');
+});
+
+$( "#buttonseven" ).click(function() {
+    $( "#bluetintsix" ).toggle('visibility');
+});
+
+$( "#buttoneight" ).click(function() {
+    $( "#bluetintseven" ).toggle('visibility');
+});
+
+$( "#buttonnine" ).click(function() {
+    $( "#bluetinteight" ).toggle('visibility');
+});
+
+$( "#buttonten" ).click(function() {
+    $( "#bluetintnine" ).toggle('visibility');
+});
+
+$( "#buttoneleven" ).click(function() {
+    $( "#bluetintten" ).toggle('visibility');
+});
+
+$( "#buttontwelve" ).click(function() {
+    $( "#yellowtintone" ).toggle('visibility');
+});
+
+$( "#buttonthirteen" ).click(function() {
+    $( "#yellowtinttwo" ).toggle('visibility');
+});
+
+$( "#buttonfourteen" ).click(function() {
+    $( "#yellowtintthree" ).toggle('visibility');
+});
+
+$( "#buttonfifteen" ).click(function() {
+    $( "#yellowtintfour" ).toggle('visibility');
+});
+
+$( "#buttonsixteen" ).click(function() {
+    $( "#yellowtintfive" ).toggle('visibility');
+});
+
+$( "#buttonseventeen" ).click(function() {
+    $( "#yellowtintsix" ).toggle('visibility');
+});
+
+$( "#buttoneighteen" ).click(function() {
+    $( "#yellowtintseven" ).toggle('visibility');
+});
+
+$( "#buttonnineteen" ).click(function() {
+    $( "#yellowtinteight" ).toggle('visibility');
+});
+
+$( "#buttontwenty" ).click(function() {
+    $( "#yellowtintnine" ).toggle('visibility');
+});
+
+$( "#buttontwentyone" ).click(function() {
+    $( "#yellowtintten" ).toggle('visibility');
+});
+
+
+
+</script>
+
+
+
+</body>
+</html>
